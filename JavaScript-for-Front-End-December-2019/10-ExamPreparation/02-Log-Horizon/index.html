@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Log-Horizon</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header class="bg-dark text-white text-center p-3">
+            <h1>Log Horizon</h1>
+        </header>
+        
+        <section id="username-section" class="text-center pt-4">
+            <form>
+                <div class="form-group">
+                    <label>
+                        <input type="text" class="form-control" placeholder="Username..." id="username" style="display: inline;"/>
+                        <h3 id="username-heading" style="display: none;"></h3>
+                    </label>
+                    <label style="position: relative; top: -3px;">
+                        <input type="button" class="btn btn-dark ml-3" value="Set Username" id="login" style="display: inline;"/>
+                        <input type="button" class="btn btn-dark ml-3" value="Logout" id="logout" style="display: none;"/>
+                    </label>
+                </div>
+            </form>
+        </section>
+
+        <hr class="bg-dark" style="height: 2px;" />
+
+        <section id="message-section" class="text-center">
+            <h2>Log a Message</h2>
+
+            <div class="row py-3">
+                <div class="col-6">
+                    <label class="w-100 pl-5 pr-3">
+                        <input type="text" id="message-text" class="form-control w-100" placeholder="Message..." />
+                    </label>
+                </div>
+
+                <div class="col-3 text-left border-right border-dark">
+                    <label for="success">
+                        <button class="btn btn-outline-success pr-3 mx-2">
+                            <input type="radio" id="success" value="Success" name="type" checked /> 
+                            Success
+                        </button>
+                    </label>
+                    <label for="info">
+                        <button class="btn btn-outline-info pr-4 mx-2">
+                            <input type="radio" id="info" value="Info" name="type" /> 
+                            Info
+                        </button>
+                    </label>
+                    <label for="error">
+                        <button class="btn btn-outline-danger pr-4 mx-2">
+                            <input type="radio" id="error" value="Error" name="type" /> 
+                            Error
+                        </button>
+                    </label>                    
+                </div>
+
+                <div class="col-3 text-left">
+                    <label class="pl-3">
+                        <input type="submit" value="   Log   " class="btn btn-dark" id="log-message" />
+                    </label>
+                </div>
+            </div>
+        </section>
+
+        <hr class="bg-dark" style="height: 2px;" />
+
+        <section id="logs" class="text-center">
+            <h2 class="mb-3">Logs</h2>
+            <h3 class="text-secondary" id="no-messages" style="display: inline;">There are currently no logs in the database...</h3>
+            <div id="messages" style="display: none;"></div>
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script>solve();</script>
+</body>
+
+</html>

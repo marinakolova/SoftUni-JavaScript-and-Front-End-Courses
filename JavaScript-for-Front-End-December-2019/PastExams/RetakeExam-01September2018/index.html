@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flower Basket</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<style>
+    .border-2 {
+        border-width: 2px !important;
+    }
+</style>
+<body class="mt-5">
+
+<header class="container">
+    <h1 class="h1 text-center text-success font-italic font-weight-normal">
+        Flower Basket
+    </h1>
+    <hr class="hr bg-success w-25" style="height: 2px">
+</header>
+
+<main>
+    <div class="container p-5">
+        <div class="row p-2">
+            <div class="col-8 border-success border-right border border-2 rounded">
+                <div class="row">
+                    <div class="col border flower-container pt-2 pb-2 border-success rounded m-2">
+                        <img src="img/waiting.png" class="img-fluid waiting">
+                    </div>
+
+                    <div class="col border flower-container pt-2 border-success rounded pb-2 m-2">
+                        <img src="img/waiting.png" class="img-fluid waiting">
+                    </div>
+                    <div class="col border flower-container pt-2 border-success rounded pb-2 m-2">
+                        <img src="img/waiting.png" class="img-fluid waiting">
+                    </div>
+                    <div class="col border flower-container pt-2 pb-2 border-success rounded m-2">
+                        <div class="p-5 text-success font-weight-bold buy">
+                            Buy
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col border flower-container pt-2 pb-2 border-success rounded m-2">
+                        <div class="p-5 text-success font-weight-bold buy">
+                            Buy
+                        </div>
+                    </div>
+                    <div class="col border flower-container pt-2 pb-2 border-success rounded m-2">
+                        <div class="p-5 text-success font-weight-bold buy">
+                            Buy
+                        </div>
+                    </div>
+                    <div class="col border flower-container pt-2 pb-2 border-success rounded m-2">
+                        <div class="p-5 text-success font-weight-bold buy">
+                            Buy
+                        </div>
+                    </div>
+                    <div class="col border flower-container pt-2 pb-2 border-success rounded m-2">
+                        <div class="p-5 text-success font-weight-bold buy">
+                            Buy
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col border flower-container pt-2 pb-2 border-success rounded m-2">
+                        <div class="p-5 text-success font-weight-bold buy">
+                            Buy
+                        </div>
+                    </div>
+                    <div class="col border flower-container pt-2 pb-2 border-success rounded m-2">
+                        <div class="p-5 text-success font-weight-bold buy">
+                            Buy
+                        </div>
+                    </div>
+                    <div class="col border flower-container pt-3 pb-3 border-success rounded m-2">
+                        <div class="p-5 text-success font-weight-bold buy">
+                            Buy
+                        </div>
+                    </div>
+                    <div class="col border flower-container pt-2 pb-2 border-success rounded m-2">
+                        <div class="p-5 text-success font-weight-bold buy">
+                            Buy
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3 border-success border-right border border-2 ml-5 p-5 rounded">
+                <h2 class="h3 text-success">Money: <span id="money">0</span></h2>
+                <h2 id="flowers" class="h3 text-success mt-5">Flowers:
+                    <span id="flowers-value"> 0 </span>
+                </h2>
+                <button class="btn btn-success text-center mt-5" id="sellBtn">
+                    SELL
+                </button>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

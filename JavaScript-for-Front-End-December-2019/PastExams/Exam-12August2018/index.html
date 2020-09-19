@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Modify me</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <style>
+        .hr-2 {
+            height: 2px;
+        }
+    </style>
+</head>
+<body>
+<header class="container">
+    <h1 class="h1 text-center text-danger">
+        Modify me
+    </h1>
+    <hr class="hr-2 bg-danger" style="height: 2px;">
+</header>
+
+<main>
+    <h3 class="h3 text-center text-danger">
+        Personal info
+    </h3>
+    <form>
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-5">
+                <h6 class="h6 font-weight-bold text-danger text-center">First Name</h6>
+                <div id="change-content">
+                    <h4 class="h4 text-dark text-center change-content">Pesho</h4>
+                </div>
+            </div>
+
+            <div class="col-5">
+                <h6 class="h6 font-weight-bold text-danger text-center">Last Name</h6>
+                <h4 class="h4 text-dark text-center change-content">Peshov</h4>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center mt-4">
+            <div class="col-5">
+                <h6 class="h6 font-weight-bold text-danger text-center ">Phone Number</h6>
+                <h4 class="h4 text-dark text-center change-content">555-333-4545</h4>
+            </div>
+
+            <div class="col-5">
+                <h6 class="h6 font-weight-bold text-danger text-center">UCL</h6>
+                <h4 class="h4 text-dark text-center change-content" id="ucl">9311124003</h4>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr class="hr-2 bg-danger" style="height: 2px;">
+
+        <h3 class="h3 text-center text-danger mb-4">
+            Team and position
+        </h3>
+
+        <div class="row d-flex justify-content-center">
+            <label class="radio-inline mr-5">
+                <input type="radio" name="blankRadio" class="mr-4" id="support">
+                Support
+            </label>
+
+            <label class="radio-inline mr-5 ">
+                <input type="radio" name="blankRadio" class="mr-4" id="crm">
+                CRM
+            </label>
+
+            <label class="radio-inline mr-5 ">
+                <input type="radio" name="blankRadio" class="mr-4" id="marketing">
+                Marketing
+            </label>
+
+            <label class="radio-inline mr-5 ">
+                <input type="radio" name="blankRadio" class="mr-4" id="development">
+                Development
+            </label>
+
+            <label class="radio-inline mr-5 ">
+                <input type="radio" name="blankRadio" checked class="mr-4" id="other">
+                Other
+            </label>
+
+            <div class="col-6 my-3">
+                <hr class="hr-2 bg-danger" style="height: 2px;">
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center" id="positionOptions">
+            <label class="radio-inline mr-5">
+                <input type="radio" name="optradio" class="mr-4">
+                <span id="firstOption">
+                    Team Lead
+                </span>
+            </label>
+
+            <label class="radio-inline mr-5">
+                <input type="radio" name="optradio" class="mr-4">
+                <span id="secondOption">
+                Employee
+                </span>
+            </label>
+
+            <label class="radio-inline mr-5">
+                <input type="radio" name="optradio" class="mr-4">
+                <span id="thirdOption">
+                Intern
+                </span>
+            </label>
+        </div>
+        <hr class="hr-2 bg-danger" style="height: 2px;">
+    </div>
+
+        <div class="button-holder w-50 mt-4 mx-auto d-flex justify-content-around">
+            <button class="btn btn-danger">Submit</button>
+            <button class="btn btn-danger">Reset</button>
+        </div>
+    </form>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
