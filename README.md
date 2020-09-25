@@ -6,9 +6,9 @@ All of my exercises and homeworks from JavaScript & Front-End courses at SoftUni
 
 ### :clipboard: HTML-and-CSS-September-2020
 (ON this course now)
-01. Introduction to HTML and CSS	
+01. Introduction to HTML and CSS
 02. HTML Structure
-03.CSS & Typography	
+03. CSS & Typography
 04. CSS Box Model	
 05. Position and Float
 06. Flexbox
