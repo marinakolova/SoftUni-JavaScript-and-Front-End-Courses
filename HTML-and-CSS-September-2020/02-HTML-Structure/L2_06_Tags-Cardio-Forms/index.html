@@ -1,0 +1,86 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Customer Details</legend>
+            <div>
+                <label for="first-name">First Name</label>
+                <input type="text" placeholder="George" autofocus />
+            </div>
+            <div>
+                <label for="last-name">Last Name</label>
+                <input type="text" placeholder="Devis" />
+            </div>
+            <div>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" />
+                <label for="female">Female</label>
+                <input type="radio" name="gender" />
+                <label for="other">Other</label>
+                <input type="radio" name="gender" />
+            </div>
+            <div>
+                <label for="contact-method">Preferred contact method:</label>
+                <label for="email">Email</label>
+                <input type="radio" name="contact-method" />
+                <label for="phone">Phone</label>
+                <input type="radio" name="contact-method" />
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" placeholder="your@email.com" />
+            </div>
+            <div>
+                <label for="phone">Phone</label>
+                <input type="text" placeholder="+359885236225" />
+            </div>
+            <div>
+                <label for="town">Town</label>
+                <select name="" id="">
+                    <option value="Varna">Varna</option>
+                    <option value="Plovdiv">Plovdiv</option>
+                    <option value="Burgas">Burgas</option>
+                    <option value="Sofia">Sofia</option>
+                    <option value="Pleven">Pleven</option>
+                </select>
+            </div>
+            <div>
+                <label for="">Age</label>
+                <input type="number" placeholder="" min="18" max="70" />
+            </div>
+            <div>
+                <label for="">Programming language:</label>
+                <input list="lang" />
+                <datalist id="lang">
+                    <option value="Java">
+                    <option value="PHP">
+                    <option value="C#">
+                    <option value="JavaScript">
+                    <option value="Python">
+                    <option value="Ruby">
+                    <option value="Other">
+                </datalist>
+            </div>
+            <div>
+                <label for=""></label>
+                <textarea type="text" placeholder="More information..." rows="5" cols="20"></textarea>
+                <div>
+                    <input type="checkbox" placeholder="" checked />
+                    <label for="">I agree the Terms and Conditions</label>
+                </div>
+                <div>
+                    <label for=""></label>
+                    <input type="submit" value="Send" />
+                </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
