@@ -1,0 +1,22 @@
+html {
+    box-sizing: inherit;
+}
+
+.section {
+    width: 250px;
+    height: 250px;
+    border-style: dotted;
+    border-color: greenyellow;    
+    margin: auto;
+    text-align: center;
+}
+
+.paragraph {
+    width: 100%;
+    border-style: solid;
+    border-color: blue;
+    border-width: 5px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}

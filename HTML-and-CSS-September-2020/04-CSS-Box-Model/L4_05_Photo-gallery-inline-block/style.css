@@ -1,0 +1,6 @@
+li {
+    border-width: 0.4rem;
+    border-color: black;
+    border-style: solid;
+    display: inline-block;
+}

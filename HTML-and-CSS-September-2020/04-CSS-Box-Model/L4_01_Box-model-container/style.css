@@ -1,0 +1,10 @@
+.box {
+    width: 200px;
+    padding: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 5px;
+    background-color: rgb(64, 224, 208);
+    margin: auto;
+}
