@@ -3,6 +3,17 @@ All of my exercises and homeworks from JavaScript & Front-End courses at SoftUni
 
 ### :clipboard: Angular-November-2020
 (not started yet)
+- INTRO TO ANGULAR AND TYPESCRIPT
+- COMPONENTS
+- DI, INTRO TO RXJS, SERVICES
+- WORKSHOP: COMPONENTS
+- MODULES AND ROUTING
+- WORKSHOP: MODULES AND ROUTING
+- FORMS
+- WORKSHOP: FORMS
+- PIPES, INTERCEPTORS AND SUBJECTS
+- WORKSHOP: PIPES, INTERCEPTORS AND SUBJECTS
+- STATE MANAGEMENT
 
 ### :clipboard: HTML-and-CSS-September-2020
 (ON this course now)
