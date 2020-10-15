@@ -1,0 +1,13 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+ul {
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    border-radius: 50%;
+}
