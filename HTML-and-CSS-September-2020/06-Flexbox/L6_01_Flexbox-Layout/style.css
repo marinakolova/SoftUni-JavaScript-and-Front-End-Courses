@@ -1,0 +1,27 @@
+body {
+    display: flex;
+}
+
+header {
+    flex-grow: inherit;
+    flex-shrink: inherit;
+    flex-basis: inherit;
+}
+
+main {
+    flex-grow: inherit;
+    flex-shrink: inherit;
+    flex-basis: inherit;
+}
+
+aside {
+    flex-grow: inherit;
+    flex-shrink: inherit;
+    flex-basis: inherit;
+}
+
+footer {
+    flex-grow: inherit;
+    flex-shrink: inherit;
+    flex-basis: inherit;
+}

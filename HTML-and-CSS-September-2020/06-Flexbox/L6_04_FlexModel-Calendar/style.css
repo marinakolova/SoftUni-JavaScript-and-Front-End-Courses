@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    max-width: 65vw;
+}
+
+section {
+    display: flex;
+}
+
+span {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.notes {
+    flex-direction: column;
+}
