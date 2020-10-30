@@ -24,6 +24,7 @@ All of my exercises and homeworks from JavaScript & Front-End courses at SoftUni
 05. Position and Float
 06. Flexbox
 07. Media Queries
+08. DESIGN TO CODE - DEMO PROJECT
 
 ### :clipboard: JS-Applications-June-2020 
 (not completed yet)
