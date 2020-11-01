@@ -1,0 +1,80 @@
+@media all and (max-width: 600px) {
+    .banner h2 {
+        border-style: double solid;
+        border-width: 4px 1px;
+        font-size: 1.1em;
+        line-height: 1.35em;
+        margin: 0 auto 1em;
+        padding: 1.1em;
+        position: relative;
+        width: 95%;
+    }
+    .banner {
+        padding-bottom: 0.1em;
+        padding-top: 2em;
+    }
+    .banner p {
+        font-size: 0.9em;
+        text-transform: uppercase;
+        padding-top: 0.5em;
+    }
+    .banner .button.special {
+        width: 100%;
+    }
+    header > h2 {
+        font-size: 1.2em;
+        width: 50%;
+    }
+    ul.actions li:last-child {
+        width: 95%;
+        padding-right: 0;
+    }
+    .wrapper {
+        padding: 1em 0 0 0;
+        position: relative;
+    }
+    .wrapper > .inner {
+        margin: 0 auto;
+        width: 95%;
+    }
+    header {
+        margin-bottom: 0;
+    }
+    header.major {
+        margin-bottom: 1em;
+    }
+    .feature {
+        width: 100%;
+        padding: 1em 1em 0.1em 1em;
+        font-size: 10pt;
+    }
+    .wrapper > .inner.narrow {
+        width: 100%;
+    }
+    .grid-form .form-control.narrow {
+        width: 90%;
+        margin: auto;
+        padding-bottom: 1em;
+    }
+    .grid-form .form-control {
+        width: 90%;
+        margin: auto;
+    }
+    .grid-form .actions {
+        margin-bottom: 0;
+        width: 95%;
+        margin: auto;
+    }
+    .wrapper.style2 input[type="submit"] {
+        margin-top: 1.5em;
+        width: 100%;
+    }
+    .footer::before {
+        left: 10%;
+        width: 80%;
+    }
+    .footer {
+        padding: 2em 0 1em 0;
+        font-size: 11pt;
+    }
+}

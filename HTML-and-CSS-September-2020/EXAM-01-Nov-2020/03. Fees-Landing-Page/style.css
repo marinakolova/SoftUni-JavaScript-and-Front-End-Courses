@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+
+html {
+    font-family: 'Lato', sans-serif;
+    color: #54546D;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.header-logo {
+    width: 200px;
+}
+
+.header-nav nav ul {
+    display: flex;
+}
+
+.header-nav nav ul li {
+    list-style: none;
+    font-weight: bold;
+    padding: 10px;    
+}
+
+.header-nav nav ul li:hover {
+    cursor: pointer;    
+}
+
+.taxes {
+    background-color: #54546D;
+    color: white;
+    height: 300px;
+    
+}
+
+.taxes h1 {
+    font-weight: 500;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 18pt;
+    margin: 0;
+}
+
+.taxes h1::before {
+    content: url(images/calculator-icon.svg);
+    position: absolute;
+    margin-left: -800px;
+}
+
+.price h1 {
+    font-weight: 400;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 80px;
+    margin-right: 80px;
+    position: relative;
+    margin-top: -180px;
+    z-index: 2;
+}
+
+.boxes>article {
+    flex-basis: 32%;
+    border-radius: 8px;
+    box-shadow: 0 0 5px -1px #54546D;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.boxes>article h1 {
+    font-size: 18pt;
+    padding-top: 10px;
+}
+
+.price-1,
+.double-prices {
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.price-1 h1,
+.double-prices h1 {
+    font-weight: 500;
+    font-size: 18pt;
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.boxes>article p {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.box-1-subtitle {
+    position: relative;
+    margin-top: -60px;
+}
+
+.box-subtitle {
+    position: relative;
+    margin-top: -8px;
+}
+
+button {
+    background-color: #9A5DC6;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 20px;
+    box-shadow: 0 0 5px -1px #54546D;
+    padding: 15px 30px;
+    width: 200px;
+    align-self: center;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.boxes .price-1,
+.boxes .price-2,
+.boxes .price-3 {
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+
+.boxes .price-1 {
+    background: linear-gradient(90deg, rgba(4,156,62,1) 0%, rgba(72,212,126,0.6029762246695554) 100%);
+}
+
+.boxes .price-2 {
+    background: linear-gradient(90deg, rgba(76,108,136,1) 0%, rgba(96,150,202,0.4181022750897234) 100%);
+}
+
+.boxes .price-3 {
+    background: linear-gradient(90deg, rgba(76,57,167,1) 0%, rgba(134,120,216,0.4937325271905637) 100%);
+}
+
+.boxes .double-prices {
+    display: flex;
+}
+
+.boxes .double-prices p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.first-price {
+    border-right: solid 2px  white;
+    width: 50%;
+}
+
+.second-price {
+    padding-left: 20px;
+}
+
+.description {
+    width: 70%;
+    padding-left: 200px;
+    padding-top: 80px;
+}
+
+table {
+    border-radius: 4px;
+}
+
+.fa-check {
+    color: #12A945;
+    text-align: center;
+}
+
+.fa-times {
+    color: #FC4C50;
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background-color: #E6E6E6;    
+}
+
+tr:nth-child(even) {
+    background-color: #F8F8F8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+
+td {
+    padding: 20px;
+    border: none;
+}
+
+.bank {
+    display: flex;
+    width: 80%;
+    padding-left: 150px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.bank-text {
+    padding-right: 40px;
+}
+
+.bank-image {
+    position: relative;
+    margin-top: 80px;
+}
+
+footer {
+    height: 90px;
+    background-color: #54546D;
+    color: #8E8DA9;
+    text-align: center;
+    font-size: 13pt;
+}
+
+footer p {
+    padding-top: 30px;
+}
