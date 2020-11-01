@@ -1,8 +1,8 @@
 # JavaScript-and-Front-End-Courses
 All of my exercises and homeworks from JavaScript & Front-End courses at SoftUni.
 
-### :clipboard: Angular-November-2020
-(not started yet)
+## Angular-November-2020
+(ON this course now)
 - INTRO TO ANGULAR AND TYPESCRIPT
 - COMPONENTS
 - DI, INTRO TO RXJS, SERVICES
@@ -15,8 +15,8 @@ All of my exercises and homeworks from JavaScript & Front-End courses at SoftUni
 - WORKSHOP: PIPES, INTERCEPTORS AND SUBJECTS
 - STATE MANAGEMENT
 
-### :clipboard: HTML-and-CSS-September-2020
-(ON this course now)
+## HTML-and-CSS-September-2020
+(waiting for exam evaluation)
 01. Introduction to HTML and CSS
 02. HTML Structure
 03. CSS & Typography
@@ -26,7 +26,7 @@ All of my exercises and homeworks from JavaScript & Front-End courses at SoftUni
 07. Media Queries
 08. DESIGN TO CODE - DEMO PROJECT
 
-### :clipboard: JS-Applications-June-2020 
+## JS-Applications-June-2020 
 (not completed yet)
 01. Lab: Unit Testing and Modules
 02. Exercise: Unit Testing and Modules
@@ -43,7 +43,7 @@ All of my exercises and homeworks from JavaScript & Front-End courses at SoftUni
 13. WORKSHOP: SINGLE PAGE APPLICATION
 14. WORKSHOP: CUSTOM COMPONENTS
 
-### :clipboard: JS-Advanced-May-2020 
+## JS-Advanced-May-2020 
 (not completed yet)
 01. Lab: Syntax, Functions and Statements
 02. Exercise: Syntax, Functions and Statements
@@ -66,7 +66,7 @@ All of my exercises and homeworks from JavaScript & Front-End courses at SoftUni
 19. Exercise: Prototypes and Inheritance
 20. WORKSHOP: Side-Scrolling Game
 
-### :clipboard: JavaScript-for-Front-End-December-2019 - [Certificated](https://softuni.bg/certificates/details/76257/c5033f87) :heavy_check_mark:
+## JavaScript-for-Front-End-December-2019 - [Certificated](https://softuni.bg/certificates/details/76257/c5033f87) :heavy_check_mark:
 01. JavaScript Syntax - Lab
 02. JavaScript Syntax - Exercise
 03. DOM - Lab
