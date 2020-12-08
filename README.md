@@ -1,19 +1,6 @@
 # JavaScript-and-Front-End-Courses
 All of my exercises and homeworks from JavaScript & Front-End courses at SoftUni.
 
-## :soon: Angular-November-2020
-- INTRO TO ANGULAR AND TYPESCRIPT
-- COMPONENTS
-- DI, INTRO TO RXJS, SERVICES
-- WORKSHOP: COMPONENTS
-- MODULES AND ROUTING
-- WORKSHOP: MODULES AND ROUTING
-- FORMS
-- WORKSHOP: FORMS
-- PIPES, INTERCEPTORS AND SUBJECTS
-- WORKSHOP: PIPES, INTERCEPTORS AND SUBJECTS
-- STATE MANAGEMENT
-
 ## :white_check_mark: HTML-and-CSS-September-2020 - [Certificated](https://softuni.bg/certificates/details/91357/bf50c0c6) :heavy_check_mark:
 01. Introduction to HTML and CSS
 02. HTML Structure
