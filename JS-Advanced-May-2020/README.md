@@ -1,4 +1,4 @@
-## JS-Advanced-May-2020 (JS Advanced 4.1)
+## :on: JS-Advanced-May-2020 (JS Advanced 4.1)
 01. Lab: Syntax, Functions and Statements
 02. Exercise: Syntax, Functions and Statements
 03. Lab: Arrays
@@ -20,7 +20,7 @@
 19. Exercise: Prototypes and Inheritance
 20. WORKSHOP: Side-Scrolling Game
 
-## JS-Advanced-January-2021
+## :clipboard: JS-Advanced-January-2021
 01. Syntax, Functions and Statements - Lab
 02. Syntax, Functions and Statements - Exercise
 03. Arrays and Nested Arrays - Lab
