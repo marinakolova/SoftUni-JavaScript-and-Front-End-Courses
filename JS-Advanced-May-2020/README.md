@@ -20,7 +20,7 @@
 19. Exercise: Prototypes and Inheritance
 20. WORKSHOP: Side-Scrolling Game
 
-## :clipboard: JS-Advanced-January-2021
+### :clipboard: JS-Advanced-January-2021
 01. (Jan2021) Syntax, Functions and Statements - Lab
 02. (Jan2021) Syntax, Functions and Statements - Exercise
 03. (Jan2021) Arrays and Nested Arrays - Lab
