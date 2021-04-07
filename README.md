@@ -38,9 +38,7 @@ All of my exercises and homeworks from JavaScript & Front-End courses at SoftUni
 11. Lab: Routing
 12. Exercise: Routing
 13. WORKSHOP: SINGLE PAGE APPLICATION
-14. Lab: Design Patterns and Best Practices
-15. Exercise: Design Patterns and Best Practices
-16. WORKSHOP: CUSTOM COMPONENTS
+14. WORKSHOP: CUSTOM COMPONENTS
 
 ## :on: JS-Advanced-May-2020
 01. Lab: Syntax, Functions and Statements
