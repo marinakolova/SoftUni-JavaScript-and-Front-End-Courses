@@ -1,4 +1,6 @@
-## :on: JS-Advanced-May-2020
+## :white_check_mark: JS-Advanced-May-2020 / JS-Advanced-January-2021 - [Certificated](https://softuni.bg/Certificates/Details/103937/77dd36f6) :heavy_check_mark:
+
+### :clipboard: JS-Advanced-May-2020
 01. Lab: Syntax, Functions and Statements
 02. Exercise: Syntax, Functions and Statements
 03. Lab: Arrays
