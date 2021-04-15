@@ -1,0 +1,17 @@
+1. Firebase
+    - Create a new app in Firebase;
+    - 'GET';
+    - 'POST';
+    - 'PATCH' - modifies an existing HTTP resource (it can also create the resource if it does not exist);
+    - 'PUT' - the difference is that with "PUT" we can update a resource partially;
+
+2. Backendless
+    - Create a new app in Backendless;
+    - 'POST' - making a single post request to the base with a table name - it will create the table if trere is no such one;
+    - 'GET';
+    - 'DELETE';
+    - 'PUT' - for editing;
+    - 'POST' - for register and login;
+    - 'GET' - for logout;
+
+3. Use POSTMAN
