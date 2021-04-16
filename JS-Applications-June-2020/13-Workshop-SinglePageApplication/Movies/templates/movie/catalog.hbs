@@ -1,0 +1,33 @@
+{{>header}}
+<div id="cinema">
+    {{#if myMovies}}
+    <h1>My Movies</h1>
+    {{else}}
+    <h1>All Movies</h1>
+
+    <form action="#/catalog" method="GET">
+        <label>Search genre:</label>
+        <input type="text" name="search" value={{search}}>
+        <input type="submit" value="Search">
+    </form>
+    {{/if}}
+
+    {{>paging}}
+    <div class="movies">
+        {{#if myMovies}}
+
+        {{#each movies}}
+        {{>ownMovie}}
+        {{/each}}
+
+        {{else}}
+        {{#each movies}}
+        {{>movie}}
+        {{/each}}
+
+        {{/if}}
+
+    </div>
+    {{>paging}}
+</div>
+{{>footer}}
