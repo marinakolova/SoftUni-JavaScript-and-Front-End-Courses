@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "make": "Some Famous Brand",
+        "model": "Chair",
+        "year": "2019",
+        "description": "Piece 1 is a part of the newest line...",
+        "price": "$100",
+        "material": "Wood, Fabric",
+        "imageUrl": "./images/chair.jpg",
+        "inFavourites": true
+    },
+    {
+        "id": 3,
+        "make": "Some Famous Brand",
+        "model": "Home Office Desk",
+        "year": "2019",
+        "description": "Piece 3 is the historic best seller...",
+        "price": "$250",
+        "material": "Wood",
+        "imageUrl": "./images/desk.jpg",
+        "inFavourites": true
+    }
+]

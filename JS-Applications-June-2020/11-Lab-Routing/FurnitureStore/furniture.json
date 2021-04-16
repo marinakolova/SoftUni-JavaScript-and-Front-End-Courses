@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "make": "Some Famous Brand",
+        "model": "Chair",
+        "year": "2019",
+        "description": "Piece 1 is a part of the newest line...",
+        "price": "$100",
+        "material": "Wood, Fabric",
+        "imageUrl": "./images/chair.jpg"
+    },
+    {
+        "id": 1,
+        "make": "Some Famous Brand",
+        "model": "Bedside Table",
+        "year": "2019",
+        "description": "Piece 2 was designed by the best company...",
+        "price": "$120",
+        "material": "Wood",
+        "imageUrl": "./images/table.jpg"
+    },
+    {
+        "id": 3,
+        "make": "Some Famous Brand",
+        "model": "Home Office Desk",
+        "year": "2019",
+        "description": "Piece 3 is the historic best seller...",
+        "price": "$250",
+        "material": "Wood",
+        "imageUrl": "./images/desk.jpg"
+    },
+    {
+        "id": 4,
+        "make": "Some Famous Brand",
+        "model": "Lamp",
+        "year": "2019",
+        "description": "Piece 4 is based on the original design...",
+        "price": "$80",
+        "material": "Plastic",
+        "imageUrl": "./images/lamp.jpg"
+    }
+]

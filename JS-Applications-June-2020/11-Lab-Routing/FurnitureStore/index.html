@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Furniture Store</title>
+    <base href="/">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="./notifications.css">
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/sammy/lib/min/sammy-latest.min.js"></script>
+    <script src="./node_modules/handlebars/dist/handlebars.min.js"></script>
+</head>
+
+<body id="main">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#/">FURNITURE STORE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#/create">Create Furniture</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#/profile">Profile</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="container">
+        <div class="container"></div>
+
+        <div id="notifications">
+            <div id="loadingBox" class="notification">
+                <span>Loading …</span>
+            </div>
+            <div id="infoBox" class="notification">
+                <span>Info</span>
+            </div>
+            <div id="errorBox" class="notification">
+                <span>Error</span>
+            </div>
+        </div>
+
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>

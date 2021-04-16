@@ -1,0 +1,19 @@
+<div class="col-md-4 mt-2">
+    <div class="card text-white bg-primary">
+        <div class="card-body">
+            <blockquote class="card-blockquote">
+                <img src="{{furniture.imageUrl}}" width="200" height="200" />
+                <p>{{furniture.description}}</p>
+                <footer>Someone famous in
+                    <cite title="Source Title">Source Title</cite>
+                </footer>
+                <div class="pull-right">
+                    <a href="#/details/{{furniture.id}}" class="btn btn-info">Details</a>
+                    {{#if furniture.inFavourites}}
+                    <a class="btn btn-danger">Delete Item</a>
+                    {{/if}}
+                </div>
+            </blockquote>
+        </div>
+    </div>
+</div>
