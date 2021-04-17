@@ -15,7 +15,7 @@ const errors = {
 	409: 'Username already taken'
 }
 
-const checkForValidInput = (formObj) => { // ADD FIELDS IF NEOBHODIMO HOHO
+const checkForValidInput = (formObj) => { 
 	const checks = {
 		email: (email) => email !== '',
 		username: (username) => username !== '',
