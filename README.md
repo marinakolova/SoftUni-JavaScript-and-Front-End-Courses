@@ -14,7 +14,7 @@ All of my exercises and homeworks from JavaScript & Front-End courses at SoftUni
 - WORKSHOP: PIPES, INTERCEPTORS AND SUBJECTS
 - STATE MANAGEMENT
 
-## :on: JS-Applications-June-2020 / JS-Applications-February-2021
+## :white_check_mark: JS-Applications-June-2020 / JS-Applications-February-2021 - [Certificated](https://softuni.bg/Certificates/Details/105595/c2b35bf2) :heavy_check_mark:
 01. Lab: Unit Testing and Modules
 02. Exercise: Unit Testing and Modules
 03. Lab: REST Services And AJAX
