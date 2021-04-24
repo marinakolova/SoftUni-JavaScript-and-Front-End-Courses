@@ -1,7 +1,7 @@
 # JavaScript-and-Front-End-Courses
 All of my exercises and homeworks from JavaScript & Front-End courses at SoftUni.
 
-## :soon: Angular-November-2020 / Angular-July-2021
+## :soon: Angular
 - INTRO TO ANGULAR AND TYPESCRIPT
 - COMPONENTS
 - DI, INTRO TO RXJS, SERVICES
@@ -14,7 +14,7 @@ All of my exercises and homeworks from JavaScript & Front-End courses at SoftUni
 - WORKSHOP: PIPES, INTERCEPTORS AND SUBJECTS
 - STATE MANAGEMENT
 
-## :white_check_mark: JS-Applications-June-2020 / JS-Applications-February-2021 - [Certificated](https://softuni.bg/Certificates/Details/105595/c2b35bf2) :heavy_check_mark:
+## :white_check_mark: JS-Applications - [Certificated](https://softuni.bg/Certificates/Details/105595/c2b35bf2) :heavy_check_mark:
 01. Lab: Unit Testing and Modules
 02. Exercise: Unit Testing and Modules
 03. Lab: REST Services And AJAX
@@ -30,7 +30,7 @@ All of my exercises and homeworks from JavaScript & Front-End courses at SoftUni
 13. WORKSHOP: SINGLE PAGE APPLICATION
 14. WORKSHOP: CUSTOM COMPONENTS
 
-## :white_check_mark: JS-Advanced-May-2020 / JS-Advanced-January-2021 - [Certificated](https://softuni.bg/Certificates/Details/103937/77dd36f6) :heavy_check_mark:
+## :white_check_mark: JS-Advanced - [Certificated](https://softuni.bg/Certificates/Details/103937/77dd36f6) :heavy_check_mark:
 01. Syntax, Functions and Statements - Lab
 02. Syntax, Functions and Statements - Exercise
 03. Arrays and Nested Arrays - Lab
