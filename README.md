@@ -1,10 +1,7 @@
-# JavaScript-and-Front-End-Courses
-All of my exercises and homeworks from JavaScript & Front-End courses at SoftUni.
+# SoftUni-JavaScript-and-Front-End-Courses
+This repo contains all of my exercises and homeworks from JavaScript & Front-End courses at SoftUni.
 
-## :trophy: Personal Project
-- [OfficeBoard](https://github.com/marinakolova/OfficeBoard) - My project for completing the Angular course.
-
-### :white_check_mark: Angular - [Certificated](https://softuni.bg/Certificates/Details/113320/6c021abb) :heavy_check_mark:
+## :white_check_mark: Angular - [Certificated](https://softuni.bg/Certificates/Details/113320/6c021abb) :heavy_check_mark:
 - INTRO TO ANGULAR AND TYPESCRIPT
 - COMPONENTS
 - DI, INTRO TO RXJS, SERVICES
