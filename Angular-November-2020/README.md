@@ -1,6 +1,5 @@
-#### :trophy: My project for completing this Angular course - [OfficeBoard](https://github.com/marinakolova/OfficeBoard). 
-
 ## :white_check_mark: Angular - [Certificated](https://softuni.bg/Certificates/Details/113320/6c021abb) :heavy_check_mark:
+- #### :trophy: My project for completing this course -> [OfficeBoard](https://github.com/marinakolova/OfficeBoard)
 - INTRO TO ANGULAR AND TYPESCRIPT
 - COMPONENTS
 - DI, INTRO TO RXJS, SERVICES
